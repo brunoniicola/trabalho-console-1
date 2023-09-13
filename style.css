@@ -1,0 +1,42 @@
+*{
+box-sizing: border-box;
+}
+
+button{
+padding: 10px;
+border: none;
+background-color: brown;
+border-radius: 5px;
+cursor: pointer;
+color: rgb(255, 255, 255);
+}
+
+.card{
+width: 100%;
+height: 500px;
+
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+padding: 10px;
+
+border: 1px solid black;
+}
+
+body{
+display: flex;
+flex-direction: column;
+
+gap: 20px;
+}
+
+.exercicio4{
+display: none;
+}
+
+.title{
+font-size: 1.2rem;
+padding-bottom: 5px;
+border-bottom: 1px solid black;
+}
